@@ -4,6 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 // Import our component from this folder
 import Button from './Button';
+import {colors} from '../../constants'
 
 // Here we describe the stories we want to see of the Button. The component is
 // pretty simple so we will just make two, one with text and one with emojis
@@ -14,4 +15,7 @@ import Button from './Button';
 storiesOf('Button')
 	.add('with text', () => (
 		<Button onClick={action('clicked')}>Click Button</Button>
+	))
+	.add('with primary color', () => (
+		<Button onClick={action('clicked')} color={colors.orange.primary}>Click Button</Button>
 	))
