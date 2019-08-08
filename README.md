@@ -1,4 +1,4 @@
-![ubx-ui logo](https://github.com/zheiro-ubx/react-ubx-ui/blob/develop/public/logo-full.jpg)
+![ubx-ui logo](https://github.com/zheiro-ubx/react-ubx-ui/blob/master/public/logo-full.jpg)
 
 > React component library for UBX.
 
