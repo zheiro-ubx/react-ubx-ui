@@ -1,3 +1,5 @@
+![ubx-ui logo](https://github.com/zheiro-ubx/react-ubx-ui/blob/master/public/logo-full.jpg)
+
 > React component library for UBX.
 
 ## Get Started
